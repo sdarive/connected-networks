@@ -1,0 +1,339 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "organized_crime",
+      "role": "Boss",
+      "organization": "Jewish Mob",
+      "era": "1920s-1980s",
+      "description": "Financial genius of organized crime, architect of modern crime syndicates",
+      "frequency": 10,
+      "id": "Meyer Lansky"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Boss",
+      "organization": "Italian-American Mafia",
+      "era": "1920s-1960s",
+      "description": "Founder of modern American Mafia structure",
+      "frequency": 8,
+      "id": "Lucky Luciano"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Associate",
+      "organization": "Jewish Mob",
+      "era": "1920s-1940s",
+      "description": "Lansky associate, Las Vegas casino pioneer",
+      "frequency": 3,
+      "id": "Bugsy Siegel"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Mentor",
+      "organization": "Jewish Mob",
+      "era": "1900s-1920s",
+      "description": "Mentor to Lansky, gambling kingpin",
+      "frequency": 4,
+      "id": "Arnold Rothstein"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Boss",
+      "organization": "Genovese Crime Family",
+      "era": "1930s-1970s",
+      "description": "Prime Minister of the Underworld",
+      "frequency": 7,
+      "id": "Frank Costello"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Boss",
+      "organization": "Gambino Crime Family",
+      "era": "1970s-1985",
+      "description": "Head of Gambino family, opposed Russian partnerships",
+      "frequency": 5,
+      "id": "Paul Castellano"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Boss",
+      "organization": "Gambino Crime Family",
+      "era": "1980s-2000s",
+      "description": "Orchestrated Castellano assassination",
+      "frequency": 3,
+      "id": "John Gotti"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Underboss",
+      "organization": "Gambino Crime Family",
+      "era": "1970s-1990s",
+      "description": "Gotti underboss, later government witness",
+      "frequency": 3,
+      "id": "Sammy Gravano"
+    },
+    {
+      "type": "organized_crime",
+      "role": "Boss",
+      "organization": "Russian Mafia",
+      "era": "1975-1985",
+      "description": "Godfather of Russian mafia in America, KGB asset",
+      "frequency": 4,
+      "id": "FC Agron"
+    },
+    {
+      "type": "intelligence",
+      "role": "Cryptanalyst",
+      "organization": "US Government",
+      "era": "1910s-1970s",
+      "description": "Pioneer cryptanalyst, founder of modern intelligence",
+      "frequency": 10,
+      "id": "Elizabeth Friedman"
+    },
+    {
+      "type": "intelligence",
+      "role": "Cryptanalyst",
+      "organization": "US Army/NSA",
+      "era": "1910s-1970s",
+      "description": "Father of American cryptology, Elizabeth's husband",
+      "frequency": 5,
+      "id": "William Friedman"
+    },
+    {
+      "type": "intelligence",
+      "role": "Director",
+      "organization": "FBI",
+      "era": "1924-1972",
+      "description": "Long-time FBI Director",
+      "frequency": 7,
+      "id": "Edgar Hoover"
+    },
+    {
+      "type": "intelligence",
+      "role": "Director",
+      "organization": "OSS/CIA",
+      "era": "1940s-1950s",
+      "description": "Father of American intelligence, OSS founder",
+      "frequency": 2,
+      "id": "Bill Donovan"
+    },
+    {
+      "type": "intelligence",
+      "role": "Director",
+      "organization": "FBI",
+      "era": "2000s-2010s",
+      "description": "FBI Director, Special Counsel",
+      "frequency": 1,
+      "id": "Bob Mueller"
+    },
+    {
+      "type": "political",
+      "role": "President",
+      "organization": "US Government",
+      "era": "2016-2020",
+      "description": "US President with alleged organized crime connections",
+      "frequency": 2,
+      "id": "Donald Trump"
+    },
+    {
+      "type": "political",
+      "role": "President",
+      "organization": "US Government",
+      "era": "1933-1945",
+      "description": "US President during WWII",
+      "frequency": 1,
+      "id": "Franklin Roosevelt"
+    },
+    {
+      "type": "other",
+      "role": "Lawyer",
+      "organization": "Trump Organization",
+      "era": "2000s-2010s",
+      "description": "Trump lawyer, family connected to El-Karib Club",
+      "frequency": 2,
+      "id": "Michael Cohen"
+    },
+    {
+      "type": "other",
+      "role": "Journalist",
+      "organization": "Village Voice",
+      "era": "1970s-2010s",
+      "description": "Investigative journalist who exposed Trump-mob connections",
+      "frequency": 2,
+      "id": "Wayne Barrett"
+    },
+    {
+      "type": "other",
+      "frequency": 3,
+      "role": "Unknown",
+      "organization": "Unknown",
+      "id": "Lepke Buchalter"
+    },
+    {
+      "type": "other",
+      "frequency": 3,
+      "role": "Unknown",
+      "organization": "Unknown",
+      "id": "Jason Fagone"
+    },
+    {
+      "type": "other",
+      "frequency": 5,
+      "role": "Unknown",
+      "organization": "Unknown",
+      "id": "Big Paul Castellano"
+    },
+    {
+      "type": "other",
+      "frequency": 3,
+      "role": "Unknown",
+      "organization": "Unknown",
+      "id": "of bosses"
+    },
+    {
+      "type": "other",
+      "frequency": 4,
+      "role": "Unknown",
+      "organization": "Unknown",
+      "id": "Hank Messick"
+    },
+    {
+      "type": "other",
+      "frequency": 3,
+      "role": "Unknown",
+      "organization": "Unknown",
+      "id": "in the"
+    }
+  ],
+  "links": [
+    {
+      "relationship": "business_partner",
+      "description": "Founded bootlegging empire together",
+      "source": "Meyer Lansky",
+      "target": "Lucky Luciano",
+      "key": 0
+    },
+    {
+      "relationship": "close_associate",
+      "description": "Childhood friends and business partners",
+      "source": "Meyer Lansky",
+      "target": "Bugsy Siegel",
+      "key": 0
+    },
+    {
+      "relationship": "successor",
+      "description": "Costello took over after Luciano's deportation",
+      "source": "Lucky Luciano",
+      "target": "Frank Costello",
+      "key": 0
+    },
+    {
+      "relationship": "mentor",
+      "description": "Taught Lansky about gambling and business",
+      "source": "Arnold Rothstein",
+      "target": "Meyer Lansky",
+      "key": 0
+    },
+    {
+      "relationship": "underboss",
+      "description": "Gravano was Gotti's underboss",
+      "source": "John Gotti",
+      "target": "Sammy Gravano",
+      "key": 0
+    },
+    {
+      "relationship": "killed",
+      "description": "Gotti orchestrated Castellano's assassination",
+      "source": "John Gotti",
+      "target": "Paul Castellano",
+      "key": 0
+    },
+    {
+      "relationship": "killed",
+      "description": "Gravano planned the Castellano hit",
+      "source": "Sammy Gravano",
+      "target": "Paul Castellano",
+      "key": 0
+    },
+    {
+      "relationship": "betrayed",
+      "description": "Gravano testified against Gotti",
+      "source": "Sammy Gravano",
+      "target": "John Gotti",
+      "key": 0
+    },
+    {
+      "relationship": "business_partner",
+      "description": "Gas scam partnership with Genovese family",
+      "source": "FC Agron",
+      "target": "Frank Costello",
+      "key": 0
+    },
+    {
+      "relationship": "successor",
+      "description": "Operated from Lansky's old territory",
+      "source": "FC Agron",
+      "target": "Meyer Lansky",
+      "key": 0
+    },
+    {
+      "relationship": "married",
+      "description": "Husband and wife cryptanalyst team",
+      "source": "Elizabeth Friedman",
+      "target": "William Friedman",
+      "key": 0
+    },
+    {
+      "relationship": "hunted",
+      "description": "Friedman worked to break up Lansky's empire",
+      "source": "Elizabeth Friedman",
+      "target": "Meyer Lansky",
+      "key": 0
+    },
+    {
+      "relationship": "investigated",
+      "description": "FBI investigation of organized crime",
+      "source": "Edgar Hoover",
+      "target": "Meyer Lansky",
+      "key": 0
+    },
+    {
+      "relationship": "operation_underworld",
+      "description": "OSS worked with Luciano during WWII",
+      "source": "Bill Donovan",
+      "target": "Lucky Luciano",
+      "key": 0
+    },
+    {
+      "relationship": "flipped",
+      "description": "Mueller flipped Gravano to testify against Gotti",
+      "source": "Bob Mueller",
+      "target": "Sammy Gravano",
+      "key": 0
+    },
+    {
+      "relationship": "lawyer",
+      "description": "Trump's personal lawyer and fixer",
+      "source": "Michael Cohen",
+      "target": "Donald Trump",
+      "key": 0
+    },
+    {
+      "relationship": "location_connection",
+      "description": "Cohen family owned El-Karib Club where Agron operated",
+      "source": "Michael Cohen",
+      "target": "FC Agron",
+      "key": 0
+    },
+    {
+      "relationship": "investigated",
+      "description": "Barrett exposed Trump's organized crime connections",
+      "source": "Wayne Barrett",
+      "target": "Donald Trump",
+      "key": 0
+    }
+  ]
+}

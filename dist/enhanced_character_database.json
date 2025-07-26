@@ -1,0 +1,406 @@
+{
+  "categories": {
+    "mob": {
+      "title": "Organized Crime",
+      "description": "Mobsters, crime bosses, and organized crime figures",
+      "characters": [
+        {
+          "id": "Meyer Lansky",
+          "name": "Meyer Lansky",
+          "birth_name": "Maier Suchowljansky",
+          "birth_date": "July 4, 1902",
+          "death_date": "January 15, 1983",
+          "nickname": "The Mob's Accountant",
+          "organization": "Jewish Mob",
+          "role": "Crime Boss",
+          "era": "1920s-1980s",
+          "wikipedia_summary": "Meyer Lansky, known as the 'Mob's Accountant,' was an American organized crime figure who, along with his associate Charles 'Lucky' Luciano, was instrumental in the development of the National Crime Syndicate in the United States. Born in Belarus and immigrating to America as a child, Lansky became one of the most powerful and richest crime syndicate chiefs. He had major interests in gambling, especially in Florida, pre-revolution Cuba, Las Vegas, and the Bahamas. Lansky was a financial genius who used Swiss bank accounts and shell companies to hide the Mafia's vast wealth from the government.",
+          "photo_path": "/home/ubuntu/upload/search_images/W7dqDaEsqqwS.jpg",
+          "connections": {
+            "outgoing": [
+              {"target": "Lucky Luciano", "relationship": "business_partner", "description": "Founded bootlegging empire together"},
+              {"target": "Bugsy Siegel", "relationship": "close_associate", "description": "Childhood friends and business partners"}
+            ],
+            "incoming": [
+              {"source": "Arnold Rothstein", "relationship": "mentor", "description": "Taught Lansky about gambling and business"},
+              {"source": "FC Agron", "relationship": "successor", "description": "Operated from Lansky's old territory"},
+              {"source": "Elizabeth Friedman", "relationship": "hunted", "description": "Friedman worked to break up Lansky's empire"},
+              {"source": "Edgar Hoover", "relationship": "investigated", "description": "FBI investigation of organized crime"}
+            ]
+          }
+        },
+        {
+          "id": "Lucky Luciano",
+          "name": "Charles 'Lucky' Luciano",
+          "birth_name": "Salvatore Lucania",
+          "birth_date": "November 24, 1897",
+          "death_date": "January 26, 1962",
+          "nickname": "Lucky",
+          "organization": "Genovese Crime Family",
+          "role": "Crime Boss",
+          "era": "1920s-1960s",
+          "wikipedia_summary": "Charles 'Lucky' Luciano was an Italian-born American mobster who is considered the father of modern organized crime in the United States. He was instrumental in the development of the National Crime Syndicate and was the first official boss of the modern Genovese crime family. Luciano split New York City into five crime families and established The Commission to govern organized crime activities. He was the most powerful chief of American organized crime in the early 1930s and remained influential even from prison. During WWII, he cooperated with the U.S. Navy in Operation Underworld.",
+          "photo_path": "/home/ubuntu/upload/search_images/ty5I9LM9tD35.jpeg",
+          "connections": {
+            "outgoing": [
+              {"target": "Frank Costello", "relationship": "successor", "description": "Costello took over after Luciano's deportation"}
+            ],
+            "incoming": [
+              {"source": "Meyer Lansky", "relationship": "business_partner", "description": "Founded bootlegging empire together"},
+              {"source": "Bill Donovan", "relationship": "operation_underworld", "description": "OSS worked with Luciano during WWII"}
+            ]
+          }
+        },
+        {
+          "id": "Bugsy Siegel",
+          "name": "Benjamin 'Bugsy' Siegel",
+          "birth_name": "Benjamin Siegel",
+          "birth_date": "February 28, 1906",
+          "death_date": "June 20, 1947",
+          "nickname": "Bugsy",
+          "organization": "Jewish Mob",
+          "role": "Associate",
+          "era": "1920s-1940s",
+          "wikipedia_summary": "Benjamin 'Bugsy' Siegel was an American mobster who was a driving force behind the development of the Las Vegas Strip. He was associated with the Jewish mob and was one of the founders of Murder, Inc. Siegel was known for his violent temper and was involved in bootlegging during Prohibition. He moved to California in the 1930s and later became involved in developing casinos in Las Vegas, most notably the Flamingo Hotel. He was murdered in 1947, likely on orders from the mob due to cost overruns and delays in the Flamingo project.",
+          "photo_path": "",
+          "connections": {
+            "incoming": [
+              {"source": "Meyer Lansky", "relationship": "close_associate", "description": "Childhood friends and business partners"}
+            ]
+          }
+        },
+        {
+          "id": "Arnold Rothstein",
+          "name": "Arnold Rothstein",
+          "birth_name": "Arnold Rothstein",
+          "birth_date": "January 17, 1882",
+          "death_date": "November 6, 1928",
+          "nickname": "The Brain",
+          "organization": "Jewish Mob",
+          "role": "Mentor/Gambler",
+          "era": "1900s-1920s",
+          "wikipedia_summary": "Arnold Rothstein was an American racketeer, crime boss, businessman, and gambler who became a kingpin of the Jewish mob in New York City. He was known as 'The Brain' and was a mentor to many future crime bosses including Meyer Lansky and Lucky Luciano. Rothstein is often credited with corrupting the 1919 World Series, though this has never been proven. He transformed organized crime from thuggery to a business enterprise, focusing on gambling, bootlegging, and narcotics. He was murdered in 1928, likely over gambling debts.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Meyer Lansky", "relationship": "mentor", "description": "Taught Lansky about gambling and business"}
+            ]
+          }
+        },
+        {
+          "id": "Frank Costello",
+          "name": "Frank Costello",
+          "birth_name": "Francesco Castiglia",
+          "birth_date": "January 26, 1891",
+          "death_date": "February 18, 1973",
+          "nickname": "Prime Minister of the Underworld",
+          "organization": "Genovese Crime Family",
+          "role": "Crime Boss",
+          "era": "1930s-1970s",
+          "wikipedia_summary": "Frank Costello was an Italian-American crime boss of the Luciano crime family. Known as the 'Prime Minister of the Underworld,' he was one of the most influential organized crime figures in American history. Costello was known for his political connections and his ability to corrupt public officials. He took over leadership of the Luciano family after Lucky Luciano was deported to Italy. Unlike many mobsters, Costello preferred to avoid violence and instead relied on bribery and political influence to achieve his goals.",
+          "photo_path": "",
+          "connections": {
+            "incoming": [
+              {"source": "Lucky Luciano", "relationship": "successor", "description": "Costello took over after Luciano's deportation"},
+              {"source": "FC Agron", "relationship": "business_partner", "description": "Gas scam partnership with Genovese family"}
+            ]
+          }
+        },
+        {
+          "id": "Paul Castellano",
+          "name": "Paul Castellano",
+          "birth_name": "Constantino Paul Castellano",
+          "birth_date": "June 26, 1915",
+          "death_date": "December 16, 1985",
+          "nickname": "Big Paul",
+          "organization": "Gambino Crime Family",
+          "role": "Crime Boss",
+          "era": "1970s-1985",
+          "wikipedia_summary": "Paul Castellano was an American crime boss who succeeded Carlo Gambino as head of the Gambino crime family. Known as 'Big Paul,' he was more interested in white-collar crime than traditional mob activities. He lived lavishly and was known for his expensive tastes. Castellano was opposed to drug dealing and the family's association with the Russian mob. He was assassinated in 1985 outside Sparks Steak House in Manhattan on orders from John Gotti, who then took over the family.",
+          "photo_path": "",
+          "connections": {
+            "incoming": [
+              {"source": "John Gotti", "relationship": "killed", "description": "Gotti orchestrated Castellano's assassination"},
+              {"source": "Sammy Gravano", "relationship": "killed", "description": "Gravano planned the Castellano hit"}
+            ]
+          }
+        },
+        {
+          "id": "John Gotti",
+          "name": "John Gotti",
+          "birth_name": "John Joseph Gotti Jr.",
+          "birth_date": "October 27, 1940",
+          "death_date": "June 10, 2002",
+          "nickname": "The Teflon Don",
+          "organization": "Gambino Crime Family",
+          "role": "Crime Boss",
+          "era": "1980s-2000s",
+          "wikipedia_summary": "John Gotti was an American gangster and boss of the Gambino crime family in New York City. He orchestrated the murder of Gambino boss Paul Castellano in December 1985, before usurping the role of the family. Known as the 'Teflon Don' for his ability to avoid conviction, Gotti was known for his flamboyant lifestyle and media attention. He was eventually convicted in 1992 largely due to testimony from his underboss Sammy Gravano and died in prison in 2002.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Sammy Gravano", "relationship": "underboss", "description": "Gravano was Gotti's underboss"},
+              {"target": "Paul Castellano", "relationship": "killed", "description": "Gotti orchestrated Castellano's assassination"}
+            ],
+            "incoming": [
+              {"source": "Sammy Gravano", "relationship": "betrayed", "description": "Gravano testified against Gotti"}
+            ]
+          }
+        },
+        {
+          "id": "Sammy Gravano",
+          "name": "Salvatore 'Sammy the Bull' Gravano",
+          "birth_name": "Salvatore Gravano",
+          "birth_date": "March 12, 1945",
+          "death_date": "Still alive",
+          "nickname": "Sammy the Bull",
+          "organization": "Gambino Crime Family",
+          "role": "Underboss",
+          "era": "1970s-1990s",
+          "wikipedia_summary": "Salvatore 'Sammy the Bull' Gravano is an American former mobster who became underboss of the Gambino crime family. He is known for being the highest-ranking member of the American Mafia to break his code of silence and turn informant. His testimony against John Gotti was instrumental in Gotti's conviction. Gravano admitted to participating in 19 murders and was a key figure in the assassination of Paul Castellano. After entering witness protection, he was later arrested for running an ecstasy ring in Arizona.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Paul Castellano", "relationship": "killed", "description": "Gravano planned the Castellano hit"},
+              {"target": "John Gotti", "relationship": "betrayed", "description": "Gravano testified against Gotti"}
+            ],
+            "incoming": [
+              {"source": "John Gotti", "relationship": "underboss", "description": "Gravano was Gotti's underboss"},
+              {"source": "Bob Mueller", "relationship": "flipped", "description": "Mueller flipped Gravano to testify against Gotti"}
+            ]
+          }
+        },
+        {
+          "id": "FC Agron",
+          "name": "Evsei Agron",
+          "birth_name": "Evsei Agron",
+          "birth_date": "1932",
+          "death_date": "May 4, 1985",
+          "nickname": "FC Agron",
+          "organization": "Russian Mafia",
+          "role": "Crime Boss",
+          "era": "1975-1985",
+          "wikipedia_summary": "Evsei Agron was a Soviet-born American criminal who became known as the 'Godfather of Russian organized crime in America.' He emigrated from the Soviet Union in the 1970s and quickly established himself in Brighton Beach, Brooklyn. Agron was involved in various criminal enterprises including extortion, murder, and fraud. He was suspected of being a KGB asset and maintained connections with both Russian and Italian-American organized crime families. He was murdered in 1985, likely due to internal power struggles within the Russian mob.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Frank Costello", "relationship": "business_partner", "description": "Gas scam partnership with Genovese family"},
+              {"target": "Meyer Lansky", "relationship": "successor", "description": "Operated from Lansky's old territory"}
+            ],
+            "incoming": [
+              {"source": "Michael Cohen", "relationship": "location_connection", "description": "Cohen family owned El-Karib Club where Agron operated"}
+            ]
+          }
+        }
+      ]
+    },
+    "intelligence": {
+      "title": "Intelligence & Law Enforcement",
+      "description": "FBI, CIA, NSA, and other intelligence/law enforcement officials",
+      "characters": [
+        {
+          "id": "Elizabeth Friedman",
+          "name": "Elizebeth Smith Friedman",
+          "birth_name": "Elizebeth Smith",
+          "birth_date": "August 26, 1892",
+          "death_date": "October 31, 1980",
+          "nickname": "America's First Female Cryptanalyst",
+          "organization": "US Coast Guard/Treasury",
+          "role": "Cryptanalyst",
+          "era": "1910s-1970s",
+          "wikipedia_summary": "Elizebeth Smith Friedman was an American cryptanalyst and author who deciphered enemy codes in both World Wars and was instrumental in solving international smuggling cases during Prohibition. Known as 'America's first female cryptanalyst,' she founded the cryptanalysis unit that provided evidence against American rum runners and Chinese drug smugglers. During World War II, her decryptions helped break up Nazi spy rings in Latin America. She was a pioneer in U.S. cryptography and worked closely with her husband William Friedman, also a renowned cryptanalyst.",
+          "photo_path": "/home/ubuntu/upload/search_images/3lclxLRHPzpq.jpg",
+          "connections": {
+            "outgoing": [
+              {"target": "William Friedman", "relationship": "married", "description": "Husband and wife cryptanalyst team"},
+              {"target": "Meyer Lansky", "relationship": "hunted", "description": "Friedman worked to break up Lansky's empire"}
+            ]
+          }
+        },
+        {
+          "id": "William Friedman",
+          "name": "William Frederick Friedman",
+          "birth_name": "Wolfe Frederick Friedman",
+          "birth_date": "September 24, 1891",
+          "death_date": "November 12, 1969",
+          "nickname": "Father of American Cryptology",
+          "organization": "US Army/NSA",
+          "role": "Cryptanalyst",
+          "era": "1910s-1970s",
+          "wikipedia_summary": "William Frederick Friedman was an American cryptologist who is widely considered the father of modern American cryptography. He and his wife Elizebeth were instrumental in developing cryptanalytic techniques used by the U.S. military and intelligence agencies. Friedman worked for the U.S. Army and later helped establish the National Security Agency. He was responsible for breaking the Japanese diplomatic code PURPLE during World War II, which provided crucial intelligence for the Allied forces.",
+          "photo_path": "",
+          "connections": {
+            "incoming": [
+              {"source": "Elizabeth Friedman", "relationship": "married", "description": "Husband and wife cryptanalyst team"}
+            ]
+          }
+        },
+        {
+          "id": "Edgar Hoover",
+          "name": "J. Edgar Hoover",
+          "birth_name": "John Edgar Hoover",
+          "birth_date": "January 1, 1895",
+          "death_date": "May 2, 1972",
+          "nickname": "The Director",
+          "organization": "FBI",
+          "role": "Director",
+          "era": "1924-1972",
+          "wikipedia_summary": "J. Edgar Hoover was an American law enforcement administrator who served as the first Director of the Federal Bureau of Investigation (FBI) from 1924 until his death in 1972. He was instrumental in founding the FBI and was credited with building it into a larger crime-fighting agency. Hoover was known for his authoritarian leadership style and his extensive use of surveillance and intelligence gathering. He led major investigations into organized crime, including efforts against figures like Meyer Lansky and other mob bosses.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Meyer Lansky", "relationship": "investigated", "description": "FBI investigation of organized crime"}
+            ]
+          }
+        },
+        {
+          "id": "Bill Donovan",
+          "name": "William Joseph 'Wild Bill' Donovan",
+          "birth_name": "William Joseph Donovan",
+          "birth_date": "January 1, 1883",
+          "death_date": "February 8, 1959",
+          "nickname": "Wild Bill",
+          "organization": "OSS/CIA",
+          "role": "Director",
+          "era": "1940s-1950s",
+          "wikipedia_summary": "William Joseph 'Wild Bill' Donovan was an American soldier, lawyer, intelligence officer, and diplomat. He is best known for serving as the head of the Office of Strategic Services (OSS), the wartime intelligence agency and predecessor to the Central Intelligence Agency (CIA), during World War II. Donovan was instrumental in establishing America's modern intelligence capabilities and oversaw Operation Underworld, which involved cooperation with organized crime figures like Lucky Luciano to protect American ports during WWII.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Lucky Luciano", "relationship": "operation_underworld", "description": "OSS worked with Luciano during WWII"}
+            ]
+          }
+        },
+        {
+          "id": "Bob Mueller",
+          "name": "Robert Swan Mueller III",
+          "birth_name": "Robert Swan Mueller III",
+          "birth_date": "August 7, 1944",
+          "death_date": "Still alive",
+          "nickname": "Bob Mueller",
+          "organization": "FBI",
+          "role": "Director/Special Counsel",
+          "era": "2000s-2010s",
+          "wikipedia_summary": "Robert Swan Mueller III is an American lawyer who served as the sixth Director of the Federal Bureau of Investigation (FBI) from 2001 to 2013. He later served as Special Counsel for the Department of Justice from 2017 to 2019, investigating Russian interference in the 2016 United States elections. During his tenure as FBI Director, Mueller oversaw major organized crime investigations and was instrumental in flipping high-level mobsters like Sammy Gravano to testify against their former associates.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Sammy Gravano", "relationship": "flipped", "description": "Mueller flipped Gravano to testify against Gotti"}
+            ]
+          }
+        }
+      ]
+    },
+    "politics": {
+      "title": "Political Figures",
+      "description": "Presidents, politicians, and government officials",
+      "characters": [
+        {
+          "id": "Donald Trump",
+          "name": "Donald John Trump",
+          "birth_name": "Donald John Trump",
+          "birth_date": "June 14, 1946",
+          "death_date": "Still alive",
+          "nickname": "The Donald",
+          "organization": "Republican Party/Trump Organization",
+          "role": "President/Businessman",
+          "era": "2016-2020",
+          "wikipedia_summary": "Donald John Trump is an American politician, media personality, and businessman who served as the 45th president of the United States from 2017 to 2021. Before entering politics, he was a real estate developer and television personality. Trump's business dealings in New York have been the subject of investigation regarding potential connections to organized crime figures, particularly in the construction industry. His personal lawyer Michael Cohen had family connections to establishments frequented by Russian mob figures.",
+          "photo_path": "",
+          "connections": {
+            "incoming": [
+              {"source": "Michael Cohen", "relationship": "lawyer", "description": "Trump's personal lawyer and fixer"},
+              {"source": "Wayne Barrett", "relationship": "investigated", "description": "Barrett exposed Trump's organized crime connections"}
+            ]
+          }
+        },
+        {
+          "id": "Franklin Roosevelt",
+          "name": "Franklin Delano Roosevelt",
+          "birth_name": "Franklin Delano Roosevelt",
+          "birth_date": "January 30, 1882",
+          "death_date": "April 12, 1945",
+          "nickname": "FDR",
+          "organization": "Democratic Party",
+          "role": "President",
+          "era": "1933-1945",
+          "wikipedia_summary": "Franklin Delano Roosevelt was an American politician who served as the 32nd president of the United States from 1933 until his death in 1945. He led the United States through the Great Depression and World War II. During WWII, his administration authorized Operation Underworld, a secret cooperation between the U.S. Navy and organized crime figures like Lucky Luciano to protect American ports from sabotage and gather intelligence for the invasion of Sicily.",
+          "photo_path": "",
+          "connections": {}
+        }
+      ]
+    },
+    "other": {
+      "title": "Other Figures",
+      "description": "Journalists, lawyers, authors, and other notable figures",
+      "characters": [
+        {
+          "id": "Michael Cohen",
+          "name": "Michael Dean Cohen",
+          "birth_name": "Michael Dean Cohen",
+          "birth_date": "August 25, 1966",
+          "death_date": "Still alive",
+          "nickname": "Trump's Fixer",
+          "organization": "Trump Organization",
+          "role": "Lawyer",
+          "era": "2000s-2010s",
+          "wikipedia_summary": "Michael Dean Cohen is an American former lawyer who served as an attorney for Donald Trump from 2006 to 2018. He was Trump's personal lawyer and 'fixer' who handled various legal and business matters. Cohen's family had connections to the El-Karib Club in Brighton Beach, Brooklyn, which was frequented by Russian organized crime figures including Evsei Agron. He pleaded guilty to various charges including campaign finance violations and was sentenced to prison in 2018.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Donald Trump", "relationship": "lawyer", "description": "Trump's personal lawyer and fixer"},
+              {"target": "FC Agron", "relationship": "location_connection", "description": "Cohen family owned El-Karib Club where Agron operated"}
+            ]
+          }
+        },
+        {
+          "id": "Wayne Barrett",
+          "name": "Wayne Barrett",
+          "birth_name": "Wayne Barrett",
+          "birth_date": "July 11, 1945",
+          "death_date": "January 19, 2017",
+          "nickname": "Investigative Journalist",
+          "organization": "Village Voice",
+          "role": "Journalist",
+          "era": "1970s-2010s",
+          "wikipedia_summary": "Wayne Barrett was an American investigative journalist who spent most of his career at The Village Voice. He was known for his extensive reporting on New York City politics and his investigations into Donald Trump's business dealings and alleged connections to organized crime. Barrett's work exposed numerous corruption scandals and helped establish the modern template for investigative political journalism. His book 'Trump: The Deals and the Downfall' detailed Trump's alleged connections to mob figures in the construction industry.",
+          "photo_path": "",
+          "connections": {
+            "outgoing": [
+              {"target": "Donald Trump", "relationship": "investigated", "description": "Barrett exposed Trump's organized crime connections"}
+            ]
+          }
+        },
+        {
+          "id": "Jason Fagone",
+          "name": "Jason Fagone",
+          "birth_name": "Jason Fagone",
+          "birth_date": "Unknown",
+          "death_date": "Still alive",
+          "nickname": "Author",
+          "organization": "Independent",
+          "role": "Author/Journalist",
+          "era": "2000s-present",
+          "wikipedia_summary": "Jason Fagone is an American journalist and author best known for his book 'The Woman Who Smashed Codes: A True Story of Love, Spies, and the Unlikely Heroine Who Outwitted America's Enemies.' The book tells the story of Elizebeth Smith Friedman and her crucial role in American cryptanalysis. Fagone's work brought renewed attention to Friedman's contributions to breaking up organized crime networks during Prohibition and Nazi spy rings during World War II.",
+          "photo_path": "",
+          "connections": {}
+        },
+        {
+          "id": "Hank Messick",
+          "name": "Hank Messick",
+          "birth_name": "Henry Messick",
+          "birth_date": "Unknown",
+          "death_date": "Unknown",
+          "nickname": "Crime Writer",
+          "organization": "Independent",
+          "role": "Author/Journalist",
+          "era": "1960s-1980s",
+          "wikipedia_summary": "Hank Messick was an American journalist and author who specialized in writing about organized crime. He wrote several books about the American Mafia and was known for his detailed research into the operations of crime families. His work helped expose the inner workings of organized crime syndicates and their connections to legitimate businesses and political figures.",
+          "photo_path": "",
+          "connections": {}
+        }
+      ]
+    }
+  }
+}
+
